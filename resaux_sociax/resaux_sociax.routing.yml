@@ -1,0 +1,7 @@
+resaux_sociax.admin_settings:
+  path: '/admin/config/system/resaux-sociax'
+  defaults:
+    _form: '\Drupal\resaux_sociax\Form\ResauxSociaxConfigForm'
+    _title: 'Resaux Sociaux Configuration'
+  requirements:
+    _permission: 'administer site configuration'
