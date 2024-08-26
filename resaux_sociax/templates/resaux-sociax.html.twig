@@ -1,0 +1,22 @@
+<div class="social-media-icons" style="display: flex; gap: 10px;">
+  {% if facebook_url %}
+    <a href="{{ facebook_url }}" target="_blank">
+      <img src="{{ facebook_icon }}" alt="Facebook" />
+    </a>
+  {% endif %}
+  {% if twitter_url %}
+    <a href="{{ twitter_url }}" target="_blank">
+      <img src="{{ twitter_icon }}" alt="Twitter" />
+    </a>
+  {% endif %}
+  {% if linkedin_url %}
+    <a href="{{ linkedin_url }}" target="_blank">
+      <img src="{{ linkedin_icon }}" alt="LinkedIn" />
+    </a>
+  {% endif %}
+  {% if instagram_url %}
+    <a href="{{ instagram_url }}" target="_blank">
+      <img src="{{ instagram_icon }}" alt="Instagram" />
+    </a>
+  {% endif %}
+</div>
