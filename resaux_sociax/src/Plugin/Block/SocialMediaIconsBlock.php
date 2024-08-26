@@ -22,15 +22,15 @@ class SocialMediaIconsBlock extends BlockBase implements BlockPluginInterface {
   public function build() {
     $config = \Drupal::config('resaux_sociax.settings');
     return [
-      '#theme' => 'resaux_sociax',
-      '#facebook_url' =>   $config->get('social_links.facebook'),
-      '#facebook_icon' =>  $config->get('social_links.facebook_icon'),
-      '#twitter_url' =>    $config->get('social_links.twitter'),
-      '#twitter_icon' =>   $config->get('social_links.twitter_icon'),
-      '#linkedin_url' =>   $config->get('social_links.linkedin'),
-      '#linkedin_icon' =>  $config->get('social_links.linkedin_icon'),
-      '#instagram_url' =>  $config->get('social_links.instagram'),
-      '#instagram_icon' => $config->get('social_links.instagram_icon'),
+      '#theme'          => 'resaux_sociax',
+      '#facebook_url'   =>  $config->get('social_links.facebook'),
+      '#facebook_icon'  =>  $config->get('social_links.facebook_icon'),
+      '#twitter_url'    =>  $config->get('social_links.twitter'),
+      '#twitter_icon'   =>  $config->get('social_links.twitter_icon'),
+      '#linkedin_url'   =>  $config->get('social_links.linkedin'),
+      '#linkedin_icon'  =>  $config->get('social_links.linkedin_icon'),
+      '#instagram_url'  =>  $config->get('social_links.instagram'),
+      '#instagram_icon' =>  $config->get('social_links.instagram_icon'),
     ];
   }
 }
