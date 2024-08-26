@@ -1,0 +1,6 @@
+resaux_sociax.admin_settings:
+  title: 'Resaux Sociaux'
+  description: 'Configure social media URLs and icons.'
+  parent: system.admin_config_system
+  route_name: resaux_sociax.admin_settings
+  weight: 100

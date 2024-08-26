@@ -1,0 +1,32 @@
+resaux_sociax.settings:
+  type: config_object
+  label: 'Resaux Sociaux Configuration'
+  mapping:
+    social_links:
+      type: mapping
+      label: 'Social Links'
+      mapping:
+        facebook:
+          type: string
+          label: 'Facebook URL'
+        twitter:
+          type: string
+          label: 'Twitter URL'
+        linkedin:
+          type: string
+          label: 'LinkedIn URL'
+        instagram:
+          type: string
+          label: 'Instagram URL'
+        facebook_icon:
+          type: string
+          label: 'Facebook Icon URL'
+        twitter_icon:
+          type: string
+          label: 'Twitter Icon URL'
+        linkedin_icon:
+          type: string
+          label: 'LinkedIn Icon URL'
+        instagram_icon:
+          type: string
+          label: 'Instagram Icon URL'

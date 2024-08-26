@@ -1,0 +1,7 @@
+name: 'Resaux Sociaux Configuration'
+type: module
+description: 'Provides configuration for social media URLs and icons.'
+package: Custom
+core_version_requirement: ^8 || ^9 || ^10
+dependencies:
+  - drupal:config

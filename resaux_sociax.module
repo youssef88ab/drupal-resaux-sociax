@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function resaux_sociax_theme($existing, $type, $theme, $path) {
+    return [
+      'resaux_sociax' => [
+        'variables' => [
+            'facebook_url'  => '',
+            'facebook_icon' => '',
+            'twitter_url'   => '', 
+            'twitter_icon'  => '',
+            'linkedin_url'  => '', 
+            'linkedin_icon' => '',
+            'instagram_url' => '',
+            'instagram_icon'=> ''
+                  ],
+        'template' => 'resaux-sociax',
+      ],
+    ];
+  }
+  
