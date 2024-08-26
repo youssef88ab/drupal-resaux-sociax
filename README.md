@@ -40,4 +40,3 @@ This project is licensed under the MIT License.
 
 ---
 
-This version is more concise and organized for better readability.
